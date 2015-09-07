@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'idler'
+require 'idler/dsl'
+require './.idler' if File.exists?('./.idler.rb')
+
+Idler.run
