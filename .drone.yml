@@ -1,0 +1,10 @@
+image: ruby
+script:
+  - mkdir -p /tmp/bundle
+  - chown -R ubuntu:ubuntu /tmp/bundle
+  - gem update bundler
+  - bundle install --path /tmp/bundle
+  - bundle exec rspec
+deploy:
+  bash:
+    command: bundle exec idler `echo $CI_BRANCH`
