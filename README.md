@@ -1,6 +1,8 @@
 # Idler
 
+[![Gem Version](https://badge.fury.io/rb/idler.svg)](http://badge.fury.io/rb/idler)
 [![Circle CI](https://circleci.com/gh/toihrk/idler.svg?style=svg)](https://circleci.com/gh/toihrk/idler)
+
 
 ブランチ毎に異なるスクリプトを実行するコマンド`idler`を提供します。
 
